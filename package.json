@@ -1,0 +1,13 @@
+{
+  "name": "portal-florestal",
+  "version": "1.0.0",
+  "description": "Portal Florestal com build estático",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "npm run build && echo 'Build concluído! Abra o arquivo public/index.html no seu navegador.'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
