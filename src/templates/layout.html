@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Florestal Avançado (Mockup)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8752948184425731"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <header class="main-header">
+            <h1><i class="fas fa-tree"></i> Portal Florestal</h1>
+            <p class="subtitle">Conectando Talentos e Oportunidades no Setor Florestal</p>
+        </header>
+
+        <div class="header-main-wrapper">
+
+            <main class="main-content">
+
+                <section id="vagas" class="content-section">
+                    <h2 class="section-title"><i class="fas fa-briefcase"></i> Vagas de Emprego</h2>
+                    <div class="card-list">
+                        <!-- %%VAGAS%% -->
+                    </div>
+                </section>
+
+                 <section id="cursos" class="content-section">
+                    <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Cursos e Capacitações</h2>
+                     <div class="card-list">
+                         <!-- %%CURSOS%% -->
+                     </div>
+                </section>
+
+                 <section id="sobre" class="content-section">
+                    <h2 class="section-title"><i class="fas fa-info-circle"></i> Sobre o Portal</h2>
+                     <div style="background: #fff; padding: 1.5rem; border-radius: var(--border-radius); border: 1px solid var(--border-color);">
+                        <p class="mb-2">O <strong>Portal Florestal</strong> nasceu da necessidade de centralizar, em um único local, as diversas oportunidades de carreira, capacitação e eventos relevantes para profissionais e estudantes de Engenharia Florestal e áreas correlatas no Brasil.</p>
+                        <p class="mb-2">Nossa missão é facilitar o acesso à informação de qualidade, conectando talentos a empresas e instituições, e promovendo o desenvolvimento contínuo dos profissionais do setor.</p>
+                        <p>Este portal é um projeto independente, mantido com paixão pela área florestal. Sua visita e feedback são muito importantes!</p>
+                     </div>
+                 </section>
+
+                 <section id="contato" class="content-section">
+                    <h2 class="section-title"><i class="fas fa-envelope"></i> Contato e Parcerias</h2>
+                    <div style="background: #fff; padding: 1.5rem; border-radius: var(--border-radius); border: 1px solid var(--border-color);">
+                        <p class="mb-2">Gostaria de divulgar uma vaga, curso ou evento? Tem sugestões para melhorar o portal? Entre em contato conosco!</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:contato.portalflorestal@email.com">contato.portalflorestal@email.com</a> (exemplo)</p>
+                        <p class="mt-2 text-muted"><em>(No momento, não possuímos formulário de contato direto neste mockup estático.)</em></p>
+                    </div>
+                 </section>
+
+            </main>
+
+            <aside class="sidebar">
+
+                <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-filter"></i> Filtrar Oportunidades</h3>
+			<div class="filter-options">
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="vaga-emprego"> Vagas de Emprego
+                        </label>
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="temporario"> Empregos Temporários
+                        </label>
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="presencial"> Vagas Presenciais
+                        </label>
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="remoto"> Vagas Remotas
+                        </label>
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="bolsa"> Bolsas
+                        </label>
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="concurso"> Concursos
+                        </label>
+                        <!-- <label class="filter-label">
+                            <input type="checkbox" name="filter" value="contrato-temporario"> Contratos Temporários </label> -->
+                         <label class="filter-label">
+                            <input type="checkbox" name="filter" value="consultoria"> Contrato de Consultoria (PJ)
+                        </label>
+                         <label class="filter-label">
+                            <input type="checkbox" name="filter" value="evento"> Eventos / Congressos
+                        </label>
+                        <!-- <label class="filter-label">
+                            <input type="checkbox" name="filter" value="congresso"> Congressos
+                        </label> -->
+                        <label class="filter-label">
+                            <input type="checkbox" name="filter" value="curso"> Cursos / Capacitações
+                        </label>
+                        <!-- Adicione mais filtros de estado/região se necessário -->
+                         <button class="clear-filters-btn" onclick="clearFilters()">Limpar Filtros</button>
+                    </div>
+                     <p style="font-size: 0.8rem; color: var(--muted-color); margin-top: 1rem;">
+                        <strong>Aviso:</strong> Marque uma ou mais opções para filtrar. A filtragem é básica e baseada nas categorias definidas em cada item.
+                     </p>
+                </div>
+
+                  <div class="sidebar-widget">
+                    <h3 class="widget-title"><i class="fas fa-envelope-open-text"></i> Inscreva-se nos nossos canais</h3>
+                     <p style="font-size:0.9rem; margin-bottom:1rem;">Cadastre-se para receber novas vagas e cursos</p>
+                </div>
+
+            </aside>
+
+        </div>
+
+        <footer class="main-footer">
+            <p>© <span id="currentYear"></span> Portal Florestal - Todos os direitos reservados.</p>
+            <p>Desenvolvido como um Mockup Avançado - <a href="#">Sobre</a> | <a href="#">Contato</a></p>
+        </footer>
+
+    </div>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
